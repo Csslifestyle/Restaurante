@@ -1,0 +1,113 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+#Cabeçalho { 
+    background: #F0D800;
+    width:98vw;
+    height:30px;
+    padding : 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 0px 15px 15px;   
+    z-index: 3;
+}
+.Browser {
+    background:#E6E6E6;
+    width: 35vw;
+    height: 50px;
+    border-radius: 50px;
+    border: #E6E6E6;
+    position: absolute;   
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    left: 26vw;
+    margin: 90px;
+    z-index:3;
+
+}
+.Browser::placeholder{
+    color: #A79A9A ;
+    font-family:'Nasalization';
+    font-size: 13;
+    position: absolute;
+    top: 18px ;
+    left: 10px;
+    z-index: 4;
+}
+#ResultList{
+    font-family: 'Montserrat';
+    list-style-type: none;
+    background: white;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    top:133px ;
+    left: 460px;
+    z-index: 4;
+    display: none;
+}
+#estilizaçãoA {
+    background: white;
+    box-shadow: 1px 8px 7px rgb(165, 165, 165);
+    width:98vw;
+    height:210px;
+    padding : 5px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border-radius:0px 0px 18px 18px;
+    z-index: 2;
+}
+#espaçamentodasopções1{
+    background: lightgray;
+    width: 1px;
+    height: 30px;
+    position:absolute;
+    bottom:10px;
+    left: 280px;
+    z-index: 5;
+
+}
+#espaçamentodasopções2{
+    background: lightgray;
+    width: 1px;
+    height: 30px;
+    position:absolute;
+    bottom:10px;
+    left: 670px;
+    z-index: 5;
+
+}
+#espaçamentodasopções3{
+    background: lightgray;
+    width: 1px;
+    height: 30px;
+    position:absolute;
+    bottom:10px;
+    left: 1050px;
+    z-index: 5;
+
+}
+
+.All{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#Rodapé {
+    background:#F0D800;
+    width:98vw;
+    height:180px;
+    padding : 5px;
+    position: absolute;
+    top:2000px;
+    left:0px ;
+    border-radius:12px 12px 0px 0px ;
+}
