@@ -1,0 +1,129 @@
+<html lang="Pt-Br">
+<head>
+    <link rel="icon" type="icon" href="/Page Menu/logos/icon.ico">
+    
+    <title>
+     Dolce Vita   
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Page Releases/image.css">
+    <link rel="stylesheet" type="text/css" href="Page Releases/style.css">
+    <link rel="stylesheet" type="text/css" href="Page Releases/text.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<Body>
+    <section>
+        <div id="Cabeçalho">
+            <h5 class="Cabeçalhotext">Deliciosamente conectados ao seu paladar!</h5></div>
+            <input type="text" class="Browser" class="browsertext" placeholder="Busque Pelo que deseja...." id="searchInput" oninput="handleInput()"></input> 
+            <div id="Lupa"><img src="logos/Lupa.png"></div>
+            <ul id="resultList">
+                <a href="PGProduto1.html"><li class="resultItem">Frango Célebre na Cama de Arroz integral</li></a>
+                <a href="PGProduto2.html"><li class="resultItem">Um Prato de excelência</li></a>
+                <li class="resultItem">A Joia da carne</li>
+                <li class="resultItem">Massa italiana</li>
+                <li class="resultItem">Moqueca Baiana</li>
+                <li class="resultItem">Feijoada</li>
+                <li class="resultItem">Sorvete Com pétalas de menta</li>
+                <li class="resultItem">Morango com chantilly</li>
+                <li class="resultItem">Mousse de Chocolate</li>
+                <li class="resultItem">Torta Recheada</li>
+            </ul>
+        
+            <script>
+                function handleInput() {
+                    var input = document.getElementById('searchInput').value.trim();
+                    var list = document.getElementById('resultList');
+        
+                    
+                    if (input !== '') {
+                        list.style.display = 'block';
+                       
+                        filterResults();
+                    } else {
+                        list.style.display = 'none';
+                    }
+                }
+        
+                function filterResults() {
+                    var input = document.getElementById('searchInput').value.toUpperCase();
+                    var list = document.getElementById('resultList');
+                    var items = list.getElementsByTagName('li');
+        
+                    for (var i = 0; i < items.length; i++) {
+                        var textValue = items[i].textContent || items[i].innerText;
+                        if (textValue.toUpperCase().indexOf(input) > -1) {
+                            items[i].style.display = "";
+                        } else {
+                            items[i].style.display = "none";
+                        }
+                    }
+                }
+            </script>
+    </div>
+    <div id="estilizaçãoA">                
+        <a href="PGCardápio.html"> <h4 class="Cardápio">Cardápio</h4></a>                   
+        <a href="PGreleases.html"> <h4 class="Lançamentos">Lançamentos</h4></a>             
+        <a href="PGAbout.html"><h4 class="QuemSomos">Quem Somos</h4></a>                
+        <a href=""><h4 class="Cupons">Cupons</h4></a>
+
+       <div id="espaçamentodasopções1"></div>
+       <div id="espaçamentodasopções2"></div>
+       <div id="espaçamentodasopções3"></div>
+    </section>    
+    <div id="Logo"><a href="Page home.html"><img src="logos/logo.PNG" alt="" width="150px" ></a> </div>
+    <div id="facebookcabeçalho"><img src="logos/logo facebook.png"   width="15px" ></div>
+    <div id="twittercabeçalho"><img src="logos/logo twitter.png"     width="20px" ></div>
+    <div id="instagramcabeçalho"><img src="logos/logo Instagram.png" width="15px" ></div>
+
+    <section> 
+        <p id="PaladarBrasileiro">Paladar Brasileiro</p> 
+        
+        <a href="PGProduto1.html"><span class="estilizaçãoE">
+             <div id="image4"><img src="Image/Page 2 Menu/Imagem4.png" alt="" width="141px"></div>
+             <h1 class="TitleElement">Frango Célebre na Cama de Arroz Integral</h1>
+        <p class="SubtitleElement">Um suculento frango assado, marinado em ervas frescas e azeite de oliva, sobre uma cama de arroz integram de grãos longos, acompanhados de vegetais sazonais e regado com azeite de trufas negras</p></span> </a> 
+        <a href="PGProduto5.html"><span class="estilizaçãoF">
+             <div id="image5"><img src="Image/Page 2 Menu/Imagem5.png" alt="" width="141px">
+            </div><h1 class="TitleElement">Moqueca Baiana</h1>
+        <p class="SubtitleElement">Um prato brasileiro de peixe ou frutos do mar cozidos em molho de azeite de dendê e leite de coco, com temperos como pimentões, cebola, alho e coentro, oferecendo uma experiência rica em sabores tropicais</p></span> </a>
+        <a href="PGProduto6.html"><span class="estilizaçãoG">
+             <div id="image6"><img src="Image/Page 2 Menu/Imagem6.png" alt="" width="141px"></div>
+             <h1 class="TitleElement">Feijoada</h1>
+        <p class="SubtitleElement">Um prato icônico, preparado com feijão preto cozido e uma variedade de carne de porco, como linguiça, bacon e carne seca, resultando em uma mistura rica e saborosa</p></span> </a>
+
+        <a name="Dessert"><p id="Dessert">Diferente do igual</p></a>
+        
+        <a href="PGProduto8.html"><span class="estilizaçãoI">
+             <div id="image8"><img src="Image/Page 2 Menu/Imagem8.png" alt="" width="141px"></div>
+             <h1 class="TitleElement">Morango com chantilly</h1>
+        <p class="SubtitleElement">Morangos frescos e chantili sedoso se unem para criar uma sobremesa celestial.</p></span> </a>       
+        <a href="PGProduto9.html"><span class="estilizaçãoJ">
+             <div id="image9"><img src="Image/Page 2 Menu/Imagem9.png" alt="" width="141px">
+            </div><h1 class="TitleElement">Mousse de Chocolate</h1>
+        <p class="SubtitleElement">Um mousse de chocolate luxuosamente cremoso, acentuado com cerejas maduras para uma explosão de sabor celestial.</p></span> </a>
+        <a href="PGProduto10.html"><span class="estilizaçãoK"> 
+            <div id="image9"><img src="Image/Page 2 Menu/Imagem10.png"alt="" width="141px"></div>
+            <h1 class="TitleElement">Torta recheada</h1>
+        <p class="SubtitleElement">Uma torta divina com uma generosa cobertura de amoras frescas, unindo a doçura e o sabor intenso das frutas com uma massa crocante.</p></span> </a>
+    </section>
+    
+<section id="Rodapé">
+       <a href="PGAbout.html"><h5 id="QuemSomos2">Quem Somos</h5></a>
+        <h5 id="TrabalheConosco">Trabalhe Conosoco</h5>
+        <h5 id="FaleConosco">Fale Conosoco</h5>  
+        <div id="facebookrodapé"><img src="logos/logo facebook.png"></div>
+        <div id="twitterrodapé"><img src="logos/logo twitter.png"></div>
+        <div id="instagramrodapé"><img src="logos/logo Instagram.png"></div>    
+<h5 align="center" id="DireitosReservados">Copyright © 2023 Dolce Vita Restaurante Steakhouse 
+    Todos os direitos reservados.
+    Todas as marcas registradas são propriedade<br>dos seus respectivos donos <br> 
+    Aviso de Privacidade / Sala de Imprensa / Destaques</h5>
+</section>
+    </Body>
+</html>
