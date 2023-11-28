@@ -1,0 +1,185 @@
+#facebookcabeçalho {
+    position:absolute;
+    top: 10px;
+    right:55px;
+    z-index:3;
+    cursor: pointer;
+}
+#twittercabeçalho {
+    position:absolute;
+    top: 10px;
+    right:30px;
+    z-index:3;
+    cursor: pointer;
+}
+#instagramcabeçalho{
+    position:absolute;
+    top: 10px;
+    right:10px;
+    z-index:3;
+    cursor: pointer;
+}
+
+#logo {
+width: 500px;
+height: 500px;
+position: absolute;
+top: 10px;
+left: 5px;
+z-index: 3;
+cursor: pointer;
+}
+
+#logo2.1 {
+width: 170px;
+height:170px;
+position: absolute;
+top: 0px;
+left: 2px;
+z-index: 3;
+cursor: pointer;
+}
+
+#logo2.2 
+{
+width: 170px;
+height:170px;
+position: absolute;
+top: 0px;
+left: 2px;
+z-index: 3;
+cursor:pointer;
+}
+
+#logo2.3 
+{
+width: 170px;
+height:170px;
+position: absolute;
+top: 0px;
+left: 2px;
+z-index: 3;
+cursor: pointer;
+}
+
+#logo3.1 
+{
+width: 170px;
+height:170px;
+position: absolute;
+top: 0px;
+left: 2px;
+z-index: 3;
+cursor: pointer;
+}
+
+#logo3.2 
+{
+width: 170px;
+height:170px;
+position: absolute;
+top: 0px;
+left: 3px;
+z-index: 3;
+cursor: pointer;
+}
+
+#logo3.3 
+{
+width: 170px;
+height:170px;
+position: absolute;
+top: 0px;
+left: 2px;
+z-index: 3;
+cursor: pointer;
+}
+
+#logo4 
+{
+width: 160px;
+height:160px;
+position: absolute;
+top: 2900px;
+left: 330px;
+z-index: 3;
+cursor: pointer;
+}
+
+#Lupa{
+    position: absolute;
+    right:310px;
+    top: 2321px;
+    z-index: 3;
+
+}
+#Banner3 {
+    width: 1543;
+    position: absolute;
+    left: 0;
+    top: 50;
+    z-index: 1;
+}
+.imagem2 {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px 10px 0px 0px;
+    z-index: 2;
+}
+.imagem3 {
+    position: absolute;
+    border-radius:10px 10px 0px 0px;
+}
+#Imagem4 {
+    position: absolute;
+    top:1400px;
+    left: 20px;
+}
+#Imagem5 {
+    position:absolute;
+    top: 1400px;
+    left:370px
+}
+#Imagem6 {
+    position:absolute;
+    top:1400px;
+    right:370px
+}
+#imagem7 {
+    position:absolute;
+    top:1400px;
+    right:20px;
+}
+#Imagem8 {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1800px;
+    left:0px;
+    z-index: 2;
+}
+
+#facebookrodapé{
+    position:absolute;
+    top: 2920px;
+    right:330px;
+    z-index:2;
+    cursor: pointer;
+}
+#twitterrodapé{
+    position:absolute;
+    top: 2920px;
+    right:200px;
+    z-index:2;
+    cursor: pointer;
+}
+#instagramrodapé{
+    position:absolute;
+    top: 2920px;
+    right:60px;
+    z-index:2;
+    cursor: pointer;
+}
